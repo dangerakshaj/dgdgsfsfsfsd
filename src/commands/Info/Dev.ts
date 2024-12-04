@@ -31,15 +31,15 @@ export default class implements Command {
     const row1 = new ActionRowBuilder<ButtonBuilder>()
       .addComponents(
         new ButtonBuilder()
-          .setLabel('Github (RainyXeon)')
+          .setLabel('guns.lol/alive.ly')
           .setStyle(ButtonStyle.Link)
-          .setURL('https://github.com/RainyXeon')
+          .setURL('guns.lol?alive.ly')
       )
       .addComponents(
         new ButtonBuilder()
           .setLabel('Support Server')
           .setStyle(ButtonStyle.Link)
-          .setURL('https://discord.gg/xff4e2WvVy')
+          .setURL('https://discord.gg/paradizebot')
       )
 
     await handler.editReply({ embeds: [xeondex], components: [row1] })
